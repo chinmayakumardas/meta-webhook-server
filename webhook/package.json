@@ -1,0 +1,20 @@
+{
+  "name": "webhook-server",
+  "version": "1.0.0",
+  "description": "Node.js server for WhatsApp webhook",
+  "main": "server.js",
+  "type": "module", 
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
